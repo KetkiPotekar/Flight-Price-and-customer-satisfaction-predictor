@@ -1,4 +1,4 @@
-✈️ Flight Ticket Price Prediction & Customer Satisfaction Classification
+✈️ Flight Ticket Price Prediction & Customer Satisfaction Classification <br/>
 
 🧠 Overview
 This repository contains two end-to-end machine learning projects focused on solving real-world challenges in the travel and airline industry:
@@ -11,6 +11,7 @@ Each project includes data preprocessing, feature engineering, model training an
 📌 Project 1: Flight Ticket Price Prediction
 📄 Problem Statement
 Build a regression model to predict flight ticket prices based on features such as departure time, airline, source, destination, and route. Deploy the model using Streamlit to allow real-time user input and price predictions.
+
 💼 Business Use Cases
 Help travelers estimate flight prices based on preferences.
 Assist travel agencies with pricing strategy and planning.
@@ -48,7 +49,46 @@ Fully functional Streamlit dashboard with MLflow-tracked models.
 
 🧪 Evaluation Metrics
 RMSE (Root Mean Squared Error)
-
 R² Score
-
 Model tracking with MLflow
+
+
+📌 Project 2: Customer Satisfaction Prediction
+📄 Problem Statement
+Build a classification model to predict airline customer satisfaction based on demographics, travel class, service ratings, and delays. The model is deployed with Streamlit for real-time satisfaction prediction based on user input.
+
+💼 Business Use Cases
+Enhance customer experience and retention.
+Drive service improvements through predictive insights.
+Assist marketing teams in targeting specific customer groups.
+Enable data-driven management decisions.
+
+🛠 Approach
+Data Preprocessing
+Clean missing and duplicate data.
+Encode categorical features.
+Normalize numerical columns.
+
+Model Training
+EDA to explore feature correlations.
+Train classifiers: Logistic Regression, Random Forest, Gradient Boosting.
+Use metrics like Accuracy, F1-Score, and Confusion Matrix for evaluation.
+
+MLflow Integration
+Log all models, parameters, and metrics.
+Track confusion matrices and F1 scores.
+
+Streamlit Deployment
+Input form for users to enter demographic and service data.
+Predict and display satisfaction status.
+Visualizations of trends and insights.
+
+📊 Results
+Efficient preprocessing and feature engineering.
+High-accuracy satisfaction prediction models.
+Streamlit app with intuitive interface and MLflow integration.
+
+🧪 Evaluation Metrics
+Accuracy
+F1-Score
+Confusion Matrix
