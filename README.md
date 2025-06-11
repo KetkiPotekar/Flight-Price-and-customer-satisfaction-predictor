@@ -18,77 +18,77 @@ Assist travel agencies with pricing strategy and planning. <br/>
 Enable businesses to forecast travel expenses. <br/>
 Support airlines in dynamic pricing and trend analysis. <br/>
 
-🛠 Approach
-Data Preprocessing
-Load and clean the dataset.
-Handle missing/duplicate values.
-Convert and engineer time-related features.
-Create derived features like duration in minutes, day/month of journey, etc.
+🛠 Approach <br/>
+Data Preprocessing <br/>
+Load and clean the dataset. <br/>
+Handle missing/duplicate values. <br/>
+Convert and engineer time-related features. <br/>
+Create derived features like duration in minutes, day/month of journey, etc. <br/>
 
 
-Model Training
-Perform Exploratory Data Analysis (EDA).
-Train regression models: Linear Regression, Random Forest, XGBoost.
-Use metrics like RMSE, MAE, and R² for evaluation.
+Model Training <br/>
+Perform Exploratory Data Analysis (EDA). <br/>
+Train regression models: Linear Regression, Random Forest, XGBoost. <br/>
+Use metrics like RMSE, MAE, and R² for evaluation. <br/>
 
 
-MLflow Integration
-Log experiments, parameters, metrics, and model artifacts.
-Organize models in MLflow Model Registry.
+MLflow Integration <br/>
+Log experiments, parameters, metrics, and model artifacts. <br/>
+Organize models in MLflow Model Registry. <br/>
 
 
-Streamlit Deployment
-Interactive app to visualize trends and predict prices.
-User inputs: Source, Destination, Date, Airline, Stops, etc.
+Streamlit Deployment <br/>
+Interactive app to visualize trends and predict prices. <br/>
+User inputs: Source, Destination, Date, Airline, Stops, etc. <br/>
 
 
-📊 Results
-Cleaned and enriched dataset for analysis.
-Accurate price predictions using ensemble models.
-Fully functional Streamlit dashboard with MLflow-tracked models.
+📊 Results <br/>
+Cleaned and enriched dataset for analysis.<br/>
+Accurate price predictions using ensemble models.<br/>
+Fully functional Streamlit dashboard with MLflow-tracked models.<br/>
 
-🧪 Evaluation Metrics
-RMSE (Root Mean Squared Error)
-R² Score
-Model tracking with MLflow
+🧪 Evaluation Metrics<br/>
+RMSE (Root Mean Squared Error)<br/>
+R² Score<br/>
+Model tracking with MLflow<br/>
 
 
-📌 Project 2: Customer Satisfaction Prediction
-📄 Problem Statement
-Build a classification model to predict airline customer satisfaction based on demographics, travel class, service ratings, and delays. The model is deployed with Streamlit for real-time satisfaction prediction based on user input.
+📌 Project 2: Customer Satisfaction Prediction<br/>
+📄 Problem Statement <br/>
+Build a classification model to predict airline customer satisfaction based on demographics, travel class, service ratings, and delays. The model is deployed with Streamlit for real-time satisfaction prediction based on user input.<br/>
 
-💼 Business Use Cases
-Enhance customer experience and retention.
-Drive service improvements through predictive insights.
-Assist marketing teams in targeting specific customer groups.
+💼 Business Use Cases <br/>
+Enhance customer experience and retention. <br/>
+Drive service improvements through predictive insights. <br/>
+Assist marketing teams in targeting specific customer groups. <br/>
 Enable data-driven management decisions.
 
-🛠 Approach
-Data Preprocessing
-Clean missing and duplicate data.
-Encode categorical features.
-Normalize numerical columns.
+🛠 Approach <br/>
+Data Preprocessing <br/>
+Clean missing and duplicate data. <br/>
+Encode categorical features. <br/>
+Normalize numerical columns. <br/>
 
-Model Training
-EDA to explore feature correlations.
-Train classifiers: Logistic Regression, Random Forest, Gradient Boosting.
-Use metrics like Accuracy, F1-Score, and Confusion Matrix for evaluation.
+Model Training <br/>
+EDA to explore feature correlations. <br/>
+Train classifiers: Logistic Regression, Random Forest, Gradient Boosting. <br/>
+Use metrics like Accuracy, F1-Score, and Confusion Matrix for evaluation. <br/>
 
-MLflow Integration
-Log all models, parameters, and metrics.
-Track confusion matrices and F1 scores.
+MLflow Integration <br/>
+Log all models, parameters, and metrics. <br/>
+Track confusion matrices and F1 scores.<br/>
 
-Streamlit Deployment
-Input form for users to enter demographic and service data.
-Predict and display satisfaction status.
-Visualizations of trends and insights.
+Streamlit Deployment<br/>
+Input form for users to enter demographic and service data. <br/>
+Predict and display satisfaction status.<br/>
+Visualizations of trends and insights.<br/>
 
-📊 Results
-Efficient preprocessing and feature engineering.
-High-accuracy satisfaction prediction models.
-Streamlit app with intuitive interface and MLflow integration.
+📊 Results <br/>
+Efficient preprocessing and feature engineering. <br/>
+High-accuracy satisfaction prediction models. <br/>
+Streamlit app with intuitive interface and MLflow integration. <br/>
 
-🧪 Evaluation Metrics
-Accuracy
-F1-Score
-Confusion Matrix
+🧪 Evaluation Metrics <br/>
+Accuracy <br/>
+F1-Score <br/>
+Confusion Matrix <br/>
