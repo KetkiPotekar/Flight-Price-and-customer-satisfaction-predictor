@@ -1,22 +1,22 @@
 ✈️ Flight Ticket Price Prediction & Customer Satisfaction Classification <br/>
 
-🧠 Overview
-This repository contains two end-to-end machine learning projects focused on solving real-world challenges in the travel and airline industry:
-Flight Ticket Price Prediction (Regression)
-Customer Satisfaction Prediction (Classification)
+🧠 Overview <br/>
+This repository contains two end-to-end machine learning projects focused on solving real-world challenges in the travel and airline industry: <br/>
+Flight Ticket Price Prediction (Regression) <br/>
+Customer Satisfaction Prediction (Classification)<br/>
 
-Each project includes data preprocessing, feature engineering, model training and evaluation, MLflow integration, and deployment using Streamlit.
+Each project includes data preprocessing, feature engineering, model training and evaluation, MLflow integration, and deployment using Streamlit. <br/>
 
 
-📌 Project 1: Flight Ticket Price Prediction
-📄 Problem Statement
-Build a regression model to predict flight ticket prices based on features such as departure time, airline, source, destination, and route. Deploy the model using Streamlit to allow real-time user input and price predictions.
+📌 Project 1: Flight Ticket Price Prediction<br/>
+📄 Problem Statement<br/>
+Build a regression model to predict flight ticket prices based on features such as departure time, airline, source, destination, and route. Deploy the model using Streamlit to allow real-time user input and price predictions.<br/>
 
-💼 Business Use Cases
-Help travelers estimate flight prices based on preferences.
-Assist travel agencies with pricing strategy and planning.
-Enable businesses to forecast travel expenses.
-Support airlines in dynamic pricing and trend analysis.
+💼 Business Use Cases <br/>
+Help travelers estimate flight prices based on preferences. <br/>
+Assist travel agencies with pricing strategy and planning. <br/>
+Enable businesses to forecast travel expenses. <br/>
+Support airlines in dynamic pricing and trend analysis. <br/>
 
 🛠 Approach
 Data Preprocessing
